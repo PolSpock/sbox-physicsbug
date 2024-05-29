@@ -59,35 +59,6 @@
       ]
     },
     {
-      "__guid": "6ad70641-3c6c-4402-9c85-9a4969af4764",
-      "Flags": 0,
-      "Name": "Plane",
-      "Scale": "5,5,5",
-      "Tags": "solid",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "3094a437-1ba6-4928-93d1-c1c778b473e4",
-          "BodyGroups": 18446744073709551615,
-          "MaterialOverride": "materials/default.vmat",
-          "Model": "models/dev/plane.vmdl",
-          "RenderType": "On",
-          "Tint": "0.39546,0.51163,0.27128,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "a7b3306b-39e9-4d18-8df4-4b23ddc0d466",
-          "Center": "0,0,-5",
-          "IsTrigger": false,
-          "Scale": "100,100,10",
-          "Static": false
-        }
-      ]
-    },
-    {
       "__guid": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
       "Flags": 0,
       "Name": "Camera",
@@ -173,10 +144,40 @@
       ]
     },
     {
+      "__guid": "6ad70641-3c6c-4402-9c85-9a4969af4764",
+      "Flags": 0,
+      "Name": "Plane",
+      "Position": "534.6396,0,0",
+      "Scale": "5,5,5",
+      "Tags": "solid",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "3094a437-1ba6-4928-93d1-c1c778b473e4",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/default.vmat",
+          "Model": "models/dev/plane.vmdl",
+          "RenderType": "On",
+          "Tint": "0.39546,0.51163,0.27128,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "a7b3306b-39e9-4d18-8df4-4b23ddc0d466",
+          "Center": "0,0,-5",
+          "IsTrigger": false,
+          "Scale": "100,100,10",
+          "Static": false
+        }
+      ]
+    },
+    {
       "__guid": "98d18c77-6c32-4ad2-ae80-c187caad21ab",
       "Flags": 0,
       "Name": "PhysicBugScene",
-      "Position": "-2.380661,105.9593,7.449486",
+      "Position": "507.3307,105.9593,7.449486",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
@@ -186,6 +187,24 @@
           "__guid": "a5e58015-850b-40a9-8dc9-d3cea3cd912d"
         }
       ]
+    },
+    {
+      "__guid": "6bc67ad3-9c5b-4cac-8d6b-a547b408b388",
+      "Flags": 0,
+      "Name": "MapInstance",
+      "Position": "284.6263,43.5768,-9.453987",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "925e86bb-f211-494f-b024-b356dd972413",
+          "MapName": "maps/test/scale.vmap",
+          "UseMapFromLaunch": true
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -211,7 +230,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-05-29T10:10:02.4727255\u002B02:00",
+  "LastSaved": "2024-05-29T10:39:58.8314026\u002B02:00",
   "ResourceVersion": 1,
   "__references": [],
   "__version": 1
